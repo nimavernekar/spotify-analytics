@@ -69,11 +69,11 @@ airflow standalone
 
 💡 Future Plans
 
-🎯 Add audio feature analysis (tempo, danceability, etc.)
-🔒 Add data validation & anomaly detection
-🐳 Dockerize pipeline
-✅ CI/CD using GitHub Actions
-📊 Publish Power BI dashboards
-✍️ Author
+-🎯 Add audio feature analysis (tempo, danceability, etc.)
+-🔒 Add data validation & anomaly detection
+-🐳 Dockerize pipeline
+-✅ CI/CD using GitHub Actions
+-📊 Publish Power BI dashboards
+-✍️ Author
 
 Built with ❤️ by Nimisha Vernekar
