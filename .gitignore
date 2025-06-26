@@ -1,0 +1,19 @@
+# Python virtual environments
+venv/
+airflow_venv/
+
+# Airflow logs
+logs/
+__pycache__/
+*.pyc
+
+# Sensitive config
+.env
+
+# Output data
+data/
+output/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+

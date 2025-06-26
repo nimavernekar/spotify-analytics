@@ -1,0 +1,8 @@
+spotipy
+pyspark
+pandas
+python-dotenv
+apache-airflow==2.8.1
+matplotlib
+seaborn
+
