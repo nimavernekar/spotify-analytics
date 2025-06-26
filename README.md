@@ -67,13 +67,14 @@ python src/transformations/spark_etl.py
 airflow standalone
 ```
 
-💡 Future Plans
+## 💡 Future Plans<br />
 
--🎯 Add audio feature analysis (tempo, danceability, etc.)
--🔒 Add data validation & anomaly detection
--🐳 Dockerize pipeline
--✅ CI/CD using GitHub Actions
--📊 Publish Power BI dashboards
--✍️ Author
+🎯 Add audio feature analysis (tempo, danceability, etc.) <br />
+🔒 Add data validation & anomaly detection <br />
+🐳 Dockerize pipeline<br />
+✅ CI/CD using GitHub Actions<br />
+📊 Publish Power BI dashboards<br />
+
+## ✍️ Author<br />
 
 Built with ❤️ by Nimisha Vernekar
