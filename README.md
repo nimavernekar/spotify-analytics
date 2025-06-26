@@ -23,14 +23,14 @@ An end-to-end data engineering project that ingests Spotify Top 50 data daily us
 ## 📂 Project Structure
 ``` bash
 spotify-analytics/
-├── data/ # Raw & processed data
-├── dags/ # Airflow DAGs
+├── data/ 
+├── dags/
 ├── src/
-│ ├── ingestion/ # Spotify API ingestion
-│ └── transformations/ # PySpark batch ETL
-├── notebooks/ # Visual exploration
-├── output/ # Final curated files
-├── .env # Credentials (excluded in GitHub)
+│ ├── ingestion/ 
+│ └── transformations/ 
+├── notebooks/ 
+├── output/
+├── .env 
 ├── requirements.txt
 ├── README.md
 
