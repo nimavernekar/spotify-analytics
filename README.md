@@ -21,7 +21,7 @@ An end-to-end data engineering project that ingests Spotify Top 50 data daily us
 - 📈 Enables dashboarding with Jupyter or Power BI
 
 ## 📂 Project Structure
-
+``` bash
 spotify-analytics/
 ├── data/ # Raw & processed data
 ├── dags/ # Airflow DAGs
@@ -34,25 +34,35 @@ spotify-analytics/
 ├── requirements.txt
 ├── README.md
 
-
+```
 
 ## 📌 How to Run
 
 
-# 1. Create virtualenv and install
+1. Create virtualenv and install
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
-# 2. Set up Spotify API credentials in a .env file
+2. Set up Spotify API credentials in a .env file
+```bash
 SPOTIFY_CLIENT_ID=your_client_id
 SPOTIFY_CLIENT_SECRET=your_client_secret
+```
 
-# 3. Ingest data
+3. Ingest data
+```bash
 python src/ingestion/spotify_api_ingestion.py
+```
 
-# 4. Run ETL
+4. Run ETL
+```bash
 python src/transformations/spark_etl.py
+```
 
-# 5. Launch Airflow
+5. Launch Airflow
+```bash
 airflow standalone
+```
