@@ -10,9 +10,6 @@ __pycache__/
 # Sensitive config
 .env
 
-# Output data
-data/
-output/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
